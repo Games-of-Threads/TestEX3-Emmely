@@ -1,6 +1,6 @@
 # TEST Assignment 3 - Test Cases
 [Assignment description](https://github.com/datsoftlyngby/soft2018spring-test-teaching-material/blob/master/exercises/Test%20Case%20Exercises.pdf)
-
+[embed]emmely_lundberg_test_3.pdf[/embed]
 ## Description
 This exercise is to practise using black box testing techniques. 
 It is touching topics such as: Equivalence Classes, Boundary Value Analysis, Decision Table Testing and State Transition Testing.

@@ -25,7 +25,7 @@ public class MyArrayListWithBugs {
     // Returns a reference to the object at position index
     // Throws IndexOutOfBoundsException
     public Object get(int index) {
-        if (index <= 0 || nextFree < index)
+        if (index < 0 || nextFree < index)
             throw new IndexOutOfBoundsException("Error (get): Invalid index" + index);
 
         return list[index];
@@ -42,7 +42,9 @@ public class MyArrayListWithBugs {
             list = getLongerList();
         // Shift elements upwards to make position index free
         // Start with last element and move backwards
+        nextFree++;
         for (int i = nextFree - 1; i > index; i--) {
+            System.out.println(i);
             list[i] = list[i - 1];
         }
         list[index] = o;
