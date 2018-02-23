@@ -1,5 +1,5 @@
 # TEST Assignment 3 - Test Cases
-y Emmely Lundberg cph-el69
+By Emmely Lundberg cph-el69
 
 [Assignment description](https://github.com/datsoftlyngby/soft2018spring-test-teaching-material/blob/master/exercises/Test%20Case%20Exercises.pdf)
 
